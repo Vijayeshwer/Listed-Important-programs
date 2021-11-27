@@ -18,11 +18,37 @@ public class StringReverse {
 		System.out.println(buffer1.reverse());	
 	}
 
+		public void Usingchararray() {
+		
+		String given = "Reyaan";
+
+		char[] separate = given.toCharArray();
+		String reversed = "";
+
+		for (int i= separate.length-1; i >= 0; i--) {
+			reversed = reversed+separate[i];	
+		}
+		
+		System.out.println(reversed);
+		
+		String input = "AADVIK";
+		char[] characterArray = input.toCharArray();
+		String reversed1= "";
+		
+		
+		for (int i = characterArray.length-1;i>=0; i--) {
+			reversed1 =reversed1 + characterArray[i];
+		}
+		
+		System.out.println(reversed1);
+	}
+	
 	
 	public static void main(String[] args) {
 
 		StringReverse Reversedstring = new StringReverse();
 		Reversedstring.usingStringBuffer();
+		Reversedstring.Usingchararray();
 	
 			}
 	
