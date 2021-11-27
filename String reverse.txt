@@ -53,3 +53,7 @@ public class StringReverse {
 			}
 	
 	}
+
+
+
+	Varification completed. program runing good
