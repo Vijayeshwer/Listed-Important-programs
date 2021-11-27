@@ -1,0 +1,27 @@
+package JavaImportantpro;
+
+public class swapTwonumber {
+	
+	public void WithThirdvariable () {
+		int A = 50;
+		int B = 25;
+		
+		System.out.println("Before swaping A ="+ A + ", B = "+B);
+		
+		int C = A;
+		A=B;
+		B=C;
+
+		System.out.println("After swaping A ="+ A + ", B = "+B);
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		swapTwonumber UsingThirdvariable = new swapTwonumber();
+		UsingThirdvariable.WithThirdvariable();
+		
+	}
+
+}
