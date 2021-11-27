@@ -16,12 +16,28 @@ public class swapTwonumber {
 		
 	}
 	
+	public void WithOutThirdvariable() {
+		
+		int A = 25;
+		int B = 50;
+		
+		System.out.println("Before swaping A ="+ A + ", B = "+B);
+		
+		A=A-B;
+		B=A+B;
+		A=B-A;
+
+		System.out.println("After swaping A ="+ A + ", B = "+B);
+		
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		swapTwonumber UsingThirdvariable = new swapTwonumber();
 		UsingThirdvariable.WithThirdvariable();
-		
+		UsingThirdvariable.WithOutThirdvariable();
 	}
 
 }
